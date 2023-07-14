@@ -1,0 +1,29 @@
+{
+  "name": "donbuche/commerce_sermepa",
+  "description": "This a fork of the drupal/commerce_sermepa, ready for 10.x through the use of a patch.",
+  "type": "drupal-module",
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/donbuche/commerce_sermepa",
+  "authors": [
+    {
+      "name": "Joan Galtés i Moreno",
+      "homepage": "https://www.drupal.org/u/donbuche"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/donbuche/commerce_sermepa/issues",
+    "source": "https://github.com/donbuche/commerce_sermepa"
+  },
+  "repositories": {
+    "commerceredsys/sermepa": {
+      "type": "vcs",
+      "url": "https://github.com/CommerceRedsys/sermepa"
+    }
+  },
+  "require": {
+    "drupal/commerce": "^2.0",
+    "commerceredsys/sermepa": "^1.0.9",
+    "drupal/core": "^8.8.0 || ^10.0"
+  },
+  "minimum-stability": "dev"
+}
